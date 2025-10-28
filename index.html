@@ -18,6 +18,12 @@
 
       <div class="input-area">
         <input type="text" id="taskInput" placeholder="What needs to be done?" />
+        <div class="task-type">
+          <label>
+            <input type="checkbox" id="dailyTaskCheckbox" onchange="toggleDailyTask()">
+            Daily Task?
+          </label>
+        </div>
         <input type="date" id="dueDateInput" />
         <select id="priorityInput">
           <option value="Low">Low Priority</option>
